@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{73571e7a-b336-412e-a10d-907a36130178}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{40ccd46a-cfd7-44d5-8d79-6aad44df97c8}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{0a40df05-9322-411a-97f5-3fdd2a62277f}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Make files">
+      <UniqueIdentifier>{94ed94ce-b09c-44c0-900b-deb6c76f6b44}</UniqueIdentifier>
+      <Extensions>*.mak</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+    <None Include="debug.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="release.mak">
+      <Filter>Make files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="BleHci.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="HciUtils.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="BleAdvNode.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="BLE.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="BleL2Cap.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="BleService.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="BleScanNode.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="StringBleValue.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="UuidBleValue.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="ByteDataBleValue.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="BleUuid.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParseBuffer.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="BleCentral.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="BlePeripheral.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="ByteDataHelper.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utils.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="BLE.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="BleHci.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="HciUtils.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="BleAdvNode.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="BleL2Cap.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="BleService.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="BleCharacteristics.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="BleValue.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="BleBase.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="BleScanNode.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="BleDescription.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="StringBleValue.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="UuidBleValue.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="ByteDataBleValue.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="BleUuid.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParseBuffer.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="BleCentral.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="BlePeripheral.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="ByteDataHelper.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="OutOfRangeException.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
